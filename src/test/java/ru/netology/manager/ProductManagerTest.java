@@ -21,7 +21,7 @@ public class ProductManagerTest{
         manager.save(smph);
         manager.save(book1);
         manager.save(smph2);
-        repo.removeById(5);
+        repo.removeById(3);
         manager.findAll();
 
         Product[] actual = manager.searchBy("in");
